@@ -22,7 +22,7 @@ pk = media.Movie("pk", "Story of an Alien who lands on earth trying to understan
 						"http://upload.wikimedia.org/wikipedia/en/2/2d/PK_Theatrical_Poster.jpg",
 						"https://www.youtube.com/watch?v=82ZEDGPCkT8")
 
-lrmb = media.Movie("Lage_raho_munna_bhai", "Story of Goon who becomes delusional starts seeing Gandhi ", 
+lrmb = media.Movie("Lage raho munna bhai", "Story of Goon who becomes delusional starts seeing Gandhi ", 
 						"http://upload.wikimedia.org/wikipedia/en/3/35/Lage_raho_munna_bhai.JPG",
 						"https://www.youtube.com/watch?v=OE6f1oHgeDg")
 
