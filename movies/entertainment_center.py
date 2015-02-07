@@ -1,5 +1,10 @@
+# Inclding media Module that conatains defnition for Movie class
+# Inclding fresh_tomatoes Module which has open_movies_page function which creates the HTML file
+
 import media
 import fresh_tomatoes
+
+# Creating movie objects
 
 toy_story = media.Movie("Toy Story", "Story of Toys That Come To Life", 
 						"http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -26,6 +31,8 @@ lrmb = media.Movie("Lage raho munna bhai", "Story of Goon who becomes delusional
 						"http://upload.wikimedia.org/wikipedia/en/3/35/Lage_raho_munna_bhai.JPG",
 						"https://www.youtube.com/watch?v=OE6f1oHgeDg")
 
+# Making a list of movies
 movies = [toy_story, inception, babys_day_out, despicable_me, pk, lrmb]
 
+# Calling open_movies_page function which creates HTML page
 fresh_tomatoes.open_movies_page(movies)
