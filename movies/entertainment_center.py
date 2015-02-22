@@ -1,4 +1,11 @@
-# Inclding media Module that conatains defnition for Movie class
+""" Generates a HTML page by taking in a list of Movies, makes use fresh_tomatoes module.
+
+In this Module a list of Movie objects are created. Movie object is available in media module.
+Also it makes use of fresh_tomatoes module that conatins the functuion open_movies_page that will consume the list of Movies and generate HTML file and additinally it launches the web browser and renders the HTML generated.
+
+"""
+
+# Inclding media Module that conatains definition for Movie class
 # Inclding fresh_tomatoes Module which has open_movies_page function which creates the HTML file
 
 import media
